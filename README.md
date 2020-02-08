@@ -10,7 +10,3 @@ Please refer to https://wiki.idempiere.org/en/Plugin:_AutoBOMOrder
 
 2. Install the plugin via Apache Felix Web Console
 
-## TODO
-
-To be checked with BOMDrop (https://wiki.idempiere.org/en/Plugin:_BOMDrop_Configurator)
-
