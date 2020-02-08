@@ -20,7 +20,6 @@ import java.util.Properties;
 import org.adempiere.base.IColumnCallout;
 import org.compiere.model.GridField;
 import org.compiere.model.GridTab;
-import org.jfree.util.Log;
 
 
 public class PluginCallout implements IColumnCallout {
