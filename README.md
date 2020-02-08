@@ -1,2 +1,16 @@
-# kbs-plugin-red1-autobomorder
-kbs-plugin-red1-autobomorder
+# KBS Plugin : RED1 AutoBOMOrder
+
+The fork from https://bitbucket.org/red1/autobomorder, and converted to be installed via **KBS ObjectData Tool** 
+
+Please refer to https://wiki.idempiere.org/en/Plugin:_AutoBOMOrder
+
+## How to install
+
+1. Install **KBS ObjectData Tool** (refer to http://wiki.idempiere.org/en/Plugin:_ObjectDataTool)
+
+2. Install the plugin via Apache Felix Web Console
+
+## TODO
+
+To be checked with BOMDrop (https://wiki.idempiere.org/en/Plugin:_BOMDrop_Configurator)
+

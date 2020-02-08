@@ -1,0 +1,27 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: KBS Plugin : RED1 AutoBOMOrder
+Bundle-SymbolicName: com.kylinsystems.kbs.plugins.red1.autobomorder;singleton:=true
+Bundle-Version: 7.1.0.qualifier
+Bundle-Vendor: KBS
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Require-Bundle: org.adempiere.base;bundle-version="0.0.0",
+ org.adempiere.plugin.utils;bundle-version="0.0.0",
+ org.adempiere.ui.zk;bundle-version="0.0.0",
+ org.adempiere.ui;bundle-version="0.0.0",
+ zcommon;bundle-version="0.0.0",
+ zel;bundle-version="0.0.0",
+ zhtml;bundle-version="0.0.0",
+ zk;bundle-version="0.0.0",
+ zkbind;bundle-version="0.0.0",
+ zkplus;bundle-version="0.0.0",
+ zul;bundle-version="0.0.0",
+ zweb;bundle-version="0.0.0",
+ com.kylinsystems.kbs.odt;bundle-version="0.0.0"
+Service-Component: OSGI-INF/*.xml
+Import-Package: org.adempiere.pipo2,
+ org.compiere.apps,
+ org.slf4j,
+ org.osgi.service.event;version="1.3.0"
+Bundle-ActivationPolicy: lazy
+Automatic-Module-Name: com.kylinsystems.kbs.plugins.red1.autobomorder
